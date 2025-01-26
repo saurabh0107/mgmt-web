@@ -19,8 +19,7 @@ import TicketPage from './pages/TicketPage'
 import CreatEvent from './pages/CreateEvent'
 import { ToastContainer } from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css";
-axios.defaults.baseURL =  "https://mgmt-api.365itsolution.com/" 
-axios.defaults.withCredentials=true;
+axios.defaults.baseURL =    "https://mgmt-api.365itsolution.com/" 
 
 function App() {
   return (
